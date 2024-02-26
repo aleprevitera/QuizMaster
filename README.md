@@ -4,15 +4,19 @@
 
 Introduzione dell'interfaccia grafica utente (GUI).
 
-QuizMaster è un'applicazione desktop sviluppata per facilitare la creazione e la gestione di quiz. Con l'introduzione della versione 1.1.0, QuizMaster ora include un'interfaccia grafica utente, rendendo il processo ancora più intuitivo e accessibile.
+QuizMaster è un'applicazione desktop sviluppata per facilitare la creazione e la gestione di quiz con i relativi correttori. Con l'introduzione della versione 1.1.0, QuizMaster ora include un'interfaccia grafica utente, rendendo il processo ancora più intuitivo e accessibile.
 
 ### Funzionalità
 
 - **Selezione dell'archivio di domande**: Permette di selezionare un file Excel contenente le domande del quiz.
 - **Configurazione del quiz**: Permette di inserire i dettagli del quiz, come materia, CDL, anno, sezione, data, e numero di domande.
-- **Generazione del PDF**: Genera un PDF contenente le domande selezionate casualmente dal file Excel specificato.
-- **Stilizzazione GUI**: L'applicazione presenta un'interfaccia grafica stilizzata e personalizzabile.
-- **Supporto DPI awareness**: Migliora la visualizzazione su dispositivi con diversi DPI.
+- **Generazione dei PDF**: Genera un PDF contenente le domande selezionate casualmente dal file Excel specificato e un PDF contente il correttore del quiz.
+
+### Archivi
+
+Gli archivi devono essere in formato **.xlsx** e strutturati a 6 colonne disposte così:
+
+DOMANDA | RISPOSTA CORRETTA | Testo2 | Testo3 | Testo4 | Testo5
 
 ### Dipendenze
 
